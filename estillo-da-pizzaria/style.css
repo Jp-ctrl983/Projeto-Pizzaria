@@ -1,0 +1,221 @@
+@charset "UTF-8";
+/*All*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root{
+    --font-padrão: 'Open Sans',verdana,heuvetica,sans-serif;
+    --font-destaque:'Libre Baskerville',cursive;
+    --font-D:"Dancing Script",arial;
+}
+
+body, html{
+    min-width: 100vw;
+    font-family: var(--font-padrão);
+    /*overflow-x: hidden;*/
+    scroll-behavior: smooth;
+}
+
+header{
+    width: 100vw;
+    
+        width: 100vw;
+        background-color: #df9a06;
+        padding: 20px;
+        margin-bottom: 10px;
+
+}
+
+header > h1{
+    text-indent: 10px;
+}
+
+#burger{
+    width: 30px;
+    border-radius: 10px;
+    background-color:  #ffffff;
+    color: black;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+    margin-left: 10px;
+    transition:1s;
+}
+
+#burger:hover{
+    background-color:#eeeeee80;
+    color: black;
+    
+}
+
+menu > ul{
+    list-style-type: none;
+}
+
+main{
+    width: 70vw;
+    min-height: 65vh;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.301);
+    border-radius: 10px;
+    margin: auto;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    transition: width 0.7s, heigth 1s;
+    transition-timing-function: ease;
+    
+}
+
+#formlulario{
+    width: 55vw;
+    height: 90vh;
+    padding: 15px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin: auto;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.301);
+    margin-top: 10px;
+   
+}
+
+div > img#pizzaPP{
+    min-width: 100px;
+    height: 95px;
+    display: block;
+    margin: auto;
+    padding: 10px;
+}
+
+#pai{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.card{
+    background-color: #fff;
+    width: 160px;
+    height: 200px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 12px #6b6a6aaa;
+    margin-top: 10px;
+    margin: 10px;
+    flex: auto;
+    margin-left: 20px;
+    padding: 10px;
+}
+
+footer{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(29, 29, 29, 0.432);
+    padding: 10px;
+    margin-top: 10px;
+}
+
+p#text1{
+    text-align: justify;
+    font-family: var(--font-D);
+    font-size: 1.6em;
+    text-align: center;
+    
+}
+
+p#text2{
+    text-align: center;
+    margin-top: 10px;
+}
+
+span{
+    display: block;
+    margin-top: 10px;
+}
+
+#button1{
+    width: 26.5vw;
+    height: 10vh;
+    padding: 5px;
+    margin: 10px;
+    background-color: #c1121ec5;
+    border: none;
+    border-radius: 5px;
+    text-align: center; 
+    color: white;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: all ease-in 1s;
+}
+
+#button1:hover{
+    background-color: #c1121e;
+    border-radius: 10px;
+}
+
+input[type=text]#loc{
+    width: 45vw;
+    height: 5vh;
+    padding: 5px;
+    background-color: #c1121ed5;
+    border-radius: 5px;
+    margin: 10px;
+    display: block;
+    border: none;
+    transition: all ease-in 1s;
+}
+
+
+input[type=text]#loc:hover{
+    background-color: #c1121ee7;
+}
+
+#button2{
+    width: 20vw;
+    height: 8vh;
+    padding: 5px;
+    margin: 10px;
+    background-color: #c1121ed5;
+    border: none;
+    border-radius: 5px;
+    text-align: center; 
+    color: white;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: all ease-in 1s;
+}
+
+#button2:hover{
+    background-color: #c1121e;
+    border-radius: 10px;
+}
+
+a{
+    text-decoration: none;
+    background-color: #c1121ece;
+    box-shadow: 5px 4px 4px black;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    display: inline-block;
+    color: #fff;
+    font-size: 1.2em;
+    cursor: pointer;
+    
+    transition: all ease 0.7s;
+} 
+
+a:hover{
+    
+    transform: translate(1px, -3px);
+}

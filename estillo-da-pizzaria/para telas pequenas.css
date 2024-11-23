@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+/*
+---------------------------
+pequenas telas:ate 600px
+celular: 600px ate 768px
+tablet:768px ate 992px
+desktop:992px ate 1200px
+grandes telas:acima de 1200px
+---------------------------------
+*/
+
+@media screen and (min-width: 662px) and (max-width: 950px){
+    i#burger{
+        display: none;
+    }
+
+    main{
+        min-height: 700px;
+    }
+
+    #pai{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-evenly;  
+     }
+    
+    .card{
+        background-color: #fff;
+        width: 160px;
+        height: 200px;
+        border-radius: 20px;
+        box-shadow: 4px 4px 12px #6b6a6aaa;
+        margin-left: none;      
+
+    }
+
+    #button1{
+        width: 18vw;
+        height: 8vh;
+
+    }
+
+    #button2{
+        width: 17vw;
+        height: 5vh;
+    }
+  
+    menu{
+        display: block;
+    }
+    
+    
+    
+}
+
+@media screen and (min-width: 950px){
+
+
+    i#burger{
+        display: none;
+    }
+
+    #pai{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+        
+        
+    }
+    
+    .card{
+        background-color: #fff;
+        width: 160px;
+        height: 200px;
+        border-radius: 20px;
+        box-shadow: 4px 4px 12px #6b6a6aaa;
+        margin-left: none;
+        
+    }
+
+    
+    #button1{
+        width: 17vw;
+        height: 7vh;
+
+    }
+
+    #button2{
+        width: 17vw;
+        height: 5vh;
+    }
+    
+}
